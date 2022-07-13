@@ -144,3 +144,19 @@ p{
     justify-content: center;
     margin-bottom: 120px;
 }
+/* End Zakat Section Style */
+#footer-container{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    color: #fff;
+}
+.footer-description{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-title{
+    font-size: 36px;
+    color: #EF233C;
+    padding: 20px 0;
+}
