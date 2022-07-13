@@ -1,5 +1,83 @@
 *{  
-    font-family: 'Lato', sans-serif;
+    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+h2{
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hero-p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #e7e7e7;
+}
+.color{
+    color: #fc5239
+}
+
+.btn{
+    padding: 15px 35px;
+    background-color: #fc5239;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero-container{
+    background-image: linear-gradient(rgba(24, 19, 26, 0.5), rgba(15, 14, 16, 0.5)), url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 130px;
+}
+.hero-description{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+    color: #fff;
+}
+.hero-title{
+    padding-bottom: 30px;
+}
+/* End Hero Section Design */
+#donation{
+    margin-bottom: 70px;
+}
+.donation-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.donation-img img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.donation-title{
+    margin-bottom: 60px;
 }
