@@ -36,7 +36,7 @@ p{
     background-color: #fc5239;
     border: none;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 30px;
 
 }
@@ -65,9 +65,7 @@ p{
     padding-bottom: 30px;
 }
 /* End Hero Section Design */
-#donation{
-    margin-bottom: 70px;
-}
+
 .donation-container {
     display: flex;
     justify-content: space-evenly;
@@ -80,4 +78,10 @@ p{
 }
 .donation-title{
     margin-bottom: 60px;
+}
+.container-two{
+    margin: 100px 0;
+}
+.donation-btn{
+    padding: 15px 22px;
 }
